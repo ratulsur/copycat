@@ -1,6 +1,6 @@
 import os
 import streamlit as st
-from langchain_community.chat_models import ChatOpenAI
+from langchain-openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.prompts import FewShotPromptTemplate
 from langchain.prompts.example_selector import LengthBasedExampleSelector
