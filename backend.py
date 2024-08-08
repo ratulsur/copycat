@@ -7,6 +7,8 @@ from langchain.prompts.example_selector import LengthBasedExampleSelector
 
 from dotenv import load_dotenv
 
+OPENAI_API_KEY="sk-3JoY1kgrnaKQQyNikj14eDB7K4O3-5tiOn2QNzpfIYT3BlbkFJcxhMHSR68g-gBS1D5em6dBFFMaBm03d3l6OXh1GKgA"
+api_key = os.getenv("OPENAI_API_KEY")
 
 def getLLMResponse(query, category_option, task_option):
     load_dotenv()
